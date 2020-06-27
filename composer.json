@@ -1,0 +1,28 @@
+{
+    "name": "pythagus/laravel-quick-migration",
+    "description": "A very light package to simplify the Laravel migration tables",
+    "keywords": ["Laravel", "quick", "migration"],
+    "homepage": "https://github.com/Pythagus/laravel-quick-migration",
+    "type": "package",
+    "license": "MIT",
+    "authors": [{
+        "name": "Damien Molina",
+        "email": "damis01800@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pythagus\\LaravelQuickMigration\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pythagus\\LaravelQuickMigration\\QuickMigrationServiceProvider"
+            ]
+        }
+    }
+}
