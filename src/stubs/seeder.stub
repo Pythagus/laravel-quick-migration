@@ -1,0 +1,23 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Pythagus\LaravelQuickMigration\Seeds\Seed;
+use Pythagus\LaravelQuickMigration\Seeds\Seeder;
+
+/**
+ * Class {{ class }}
+ *
+ * @author
+ */
+class {{ class }} extends Seeder {
+
+   /**
+    * Seed of the current seeding.
+    * If null, the seeder will not
+    * have any effects.
+    *
+    * @var Seed|null
+    */
+   protected $seed = /*Seed::class*/ ;
+
+}

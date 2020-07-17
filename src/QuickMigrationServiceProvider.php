@@ -19,7 +19,7 @@ class QuickMigrationServiceProvider extends ServiceProvider {
      */
     public function register() {
         $this->publishes(
-	        $this->getStubs(['migration.create']), 'quick-migration-stubs'
+	        $this->getStubs(['migration.create', 'seeder']), 'quick-migration-stubs'
         ) ;
     }
 

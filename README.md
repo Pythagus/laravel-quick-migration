@@ -28,7 +28,7 @@ php artisan vendor:publish --tag=quick-migration-stubs
 ```
 
 ## Architecture
-This is the files architecture of the package:
+This is the files' architecture of the package:
 ```
 .
 ├── composer.json
@@ -37,10 +37,14 @@ This is the files architecture of the package:
 └── src
     ├── Migration.php
     ├── QuickMigrationServiceProvider.php
+    ├── Seeds
+    │   ├── Seeder.php
+    │   └── Seed.php
     └── stubs
-        └── migration.create.stub
+        ├── migration.create.stub
+        └── seeder.stub
 
-2 directories, 6 files
+3 directories, 9 files
 ```
 
 You can generate the previous tree using:
