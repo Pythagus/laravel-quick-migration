@@ -11,17 +11,22 @@ use Pythagus\LaravelQuickMigration\Migration;
 class {{ class }} extends Migration {
 
     /**
-     * Name of the table.
+     * Class name of the migration.
      *
-     * @var string
+     * @var Model
      */
-    protected $table = '{{ table }}' ;
+    //protected $class = User::class ;
 
     /**
+     * Table's structure
+     *
      * @param Blueprint $table
      */
-    public function structure (Blueprint $table) {
+    public function structure(Blueprint $table) {
         $table->id();
+
+        //
+
         $table->timestamps();
     }
 
