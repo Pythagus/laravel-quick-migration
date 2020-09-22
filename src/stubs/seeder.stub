@@ -1,22 +1,35 @@
 <?php
 
-use Pythagus\LaravelQuickMigration\Seeds\Seed;
+namespace Database\Seeders;
+
 use Pythagus\LaravelQuickMigration\Seeds\Seeder;
 
 /**
  * Class {{ class }}
+ * @package Database\Seeders
  *
  * @author
  */
 class {{ class }} extends Seeder {
 
    /**
-    * Seed of the current seeding.
-    * If null, the seeder will not
-    * have any effects.
-    *
-    * @var Seed|null
-    */
-   /*protected $seed = Seed::class*/ ;
+   	 * Get the whole data.
+   	 *
+   	 * @return array
+   	 */
+    public function all() {
+        return [] ;
+    }
+
+
+   	/**
+   	 * Get the query builder of the
+   	 * specified model.
+   	 *
+   	 * @return Builder
+   	 */
+   	public function query() {
+   		// return ;
+   	}
 
 }

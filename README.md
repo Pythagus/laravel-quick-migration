@@ -7,7 +7,10 @@ Package to simplify the migrations and solve the *"Table already exists"* issue.
 You can quickly add this package in your application using Composer. **Be careful** to use the correct version of the package regarding your Laravel application version:
 
 ### Version
-For now, this package supports **all Laravel versions from 5.3**.
+| Laravel | Package        |
+|----------|:-------------:|
+| 5.3 to 7.x | 1.x |
+| 8.x | 2.x |
 
 ### Composer
 In a Bash terminal:
