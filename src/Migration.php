@@ -4,7 +4,6 @@ namespace Pythagus\LaravelQuickMigration;
 
 use Exception;
 use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration as BaseMigration;
 
@@ -13,7 +12,7 @@ use Illuminate\Database\Migrations\Migration as BaseMigration;
  * @package Pythagus\LaravelQuickMigration
  *
  * @property string table
- * @property Model  class
+ * @property string class
  *
  * @author: Damien MOLINA
  */
@@ -29,7 +28,7 @@ abstract class Migration extends BaseMigration {
 	/**
 	 * Class name of the migration.
 	 *
-	 * @var Model
+	 * @var string
 	 */
 	protected $class ;
 
